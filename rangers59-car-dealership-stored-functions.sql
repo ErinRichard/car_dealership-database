@@ -25,6 +25,8 @@ SELECT add_customer(3,'Didier','Lockwood','1234 5678 4321 8765 432 06/21', '555 
 
 SELECT add_customer(4,'Sally','Smith','9999 9999 9999 9999 777 07/22', 'Wildwood Lane, Denver, CO');
 
+SELECT add_customer(5,'Erin','Richard','8888 8888 8888 8888 555 05/22', '100 West Ave, Chicago, IL');
+
 -- Verify that new customers have been added
 SELECT *
 FROM customer;
